@@ -12,7 +12,8 @@
 
   @include clearfix();
   margin-bottom: 1em;
-
+  position: fixed; // fix the side bar
+  top: 120px; // fix the side bar
   @include breakpoint($large) {
     @include span(2 of 12);
     opacity: 1;
