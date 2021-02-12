@@ -28,7 +28,7 @@
     <div id="{{ title }}" class="intro">
       <section class="page__content" itemprop="text">
         <p>
-          <b>{{ title }}</b> <br/> {{post.arthors}} <br/> <i>{{post.venue}}</i>
+          <b>{{ title }}</b> <br/> {{ post.excerpt | markdownify }} <br/> <i>{{post.venue}}</i>
         </p>
       </section>
     </div>
