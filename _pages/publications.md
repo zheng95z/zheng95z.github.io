@@ -31,6 +31,8 @@ We introduce temporally reliable motion vectors that aim at deeper exploration o
 
 [Paper (Coming soon!)](), [Video (Coming soon!)]()
 
+---
+
 # Joint SVBRDF Recovery and Synthesis From a Single Image using an Unsupervised Generative Adversarial Network
 
 Yezi Zhao, [Beibei Wang](https://wangningbei.github.io/), [Yanning Xu](http://vr.sdu.edu.cn/info/1010/1062.htm), **Zheng Zeng**, [Lu Wang](http://vr.sdu.edu.cn/info/1010/1060.htm), [Nicolas Holzschuch](http://maverick.inria.fr/Membres/Nicolas.Holzschuch/)
@@ -42,3 +44,17 @@ Yezi Zhao, [Beibei Wang](https://wangningbei.github.io/), [Yanning Xu](http://vr
 We want to recreate spatially-varying bi-directional reflectance distribution functions (SVBRDFs) from a single image. Pro- ducing these SVBRDFs from single images will allow designers to incorporate many new materials in their virtual scenes, increasing their realism. A single image contains incomplete information about the SVBRDF, making reconstruction difficult. Existing algorithms can produce high-quality SVBRDFs with single or few input photographs using supervised deep learning. The learning step relies on a huge dataset with both input photographs and the ground truth SVBRDF maps. This is a weakness as ground truth maps are not easy to acquire. For practical use, it is also important to produce large SVBRDF maps. Existing algorithms rely on a separate texture synthesis step to generate these large maps, which leads to the loss of consistency be- tween generated SVBRDF maps. In this paper, we address both issues simultaneously. We present an unsupervised generative adversarial neural network that addresses both SVBRDF capture from a single image and synthesis at the same time. From a low-resolution input image, we generate a large resolution SVBRDF, much larger than the input images. We train a generative adversarial network (GAN) to get SVBRDF maps, which have both a large spatial extent and detailed texels. We employ a two-stream generator that divides the training of maps into two groups (normal and roughness as one, diffuse and specular as the other) to better optimize those four maps. In the end, our method is able to generate high-quality large scale SVBRDF maps from a single input photograph with repetitive structures and provides higher quality rendering results with more details compared to the previous works. Each input for our method requires individual training, which costs about 3 hours.
 
 [Paper](/files/egsr2020-svbrdf-gan.pdf), [Code](https://github.com/mengshu1996/SVBRDF-GAN)
+
+---
+
+# Denoising SPPM Renderings Using a Multi-Residual Network
+
+**Zheng Zeng**, [Lu Wang](http://vr.sdu.edu.cn/info/1010/1060.htm), [Beibei Wang](https://wangningbei.github.io/), Chunmeng Kang, [Yanning Xu](http://vr.sdu.edu.cn/info/1010/1062.htm)
+
+*Journal of Computer Science and Technology, 2020, 35: 506-521.*
+
+![](/images/pub_img_sppmdenoiser.jpg){: .align-left width="360px" }
+
+Stochastic progressive photon mapping (SPPM) is one of the important global illumination methods in computer graphics. It can simulate caustics and specular-diffuse-specular lighting effects efficiently. However, as a biased method, it always suffers from both bias and variance with limited iterations, and the bias and the variance bring multi-scale noises into SPPM renderings. Recent learning-based methods have shown great advantages on denoising unbiased Monte Carlo (MC) methods, but have not been leveraged for biased ones. In this paper, we present the first learning-based method specially designed for denoising-biased SPPM renderings. Firstly, to avoid conflicting denoising constraints, the radiance of final images is decomposed into two components: caustic and global. These two components are then denoised separately via a two-network framework. In each network, we employ a novel multi-residual block with two sizes of filters, which significantly improves the model’s capabilities, and makes it more suitable for multi-scale noises on both low-frequency and high-frequency areas. We also present a series of photon-related auxiliary features, to better handle noises while preserving illumination details, especially caustics. Compared with other state-of-the-art learning-based denoising methods that we apply to this problem, our method shows a higher denoising quality, which could efficiently denoise multi-scale noises while keeping sharp illuminations.
+
+[Paper](/files/jcst2020-sppm-denoiser.pdf)
