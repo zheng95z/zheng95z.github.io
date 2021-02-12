@@ -1,0 +1,44 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if teaser %}
+    <div id="photo-{{ title }}" class="photo">
+        <img class="img-thumbnail" width="100%" src=
+        {% if teaser contains "://" %}
+          "{{ teaser }}"
+        {% else %}
+          "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+        {% endif %}>
+    </div>
+    {% endif %}
+
+    <div id="{{ title }}" class="intro">
+      <p class="pub-p-title">
+        <b>{{ title }}</b>
+      </p>
+      <p class="pub-p">
+        {{post.arthors | | markdownify | remove: '<p>' | remove: '</p>'}}
+      </p>
+      <p class="pub-p">
+        <i>{{post.venue}}</i>
+      </p>
+    </div>
+    <script type="text/javascript">
+      document.getElementById("photo-{{ title }}").style.height = document.getElementById("{{ title }}").offsetHeight + "px";
+      document.getElementById("{{ title }}").style.height = document.getElementById("photo-{{ title }}").offsetHeight + "px";
+    </script>
+  </article>
+</div>
