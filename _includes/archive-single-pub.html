@@ -1,3 +1,10 @@
+<script>
+	var introheight = document.getElementById('intro');
+	var photoheight = document.getElementById('photo');
+	photoheight.style.height = introheight.offsetHeight+'px';
+</script>
+
+
 {% include base_path %}
 
 {% if post.header.teaser %}
