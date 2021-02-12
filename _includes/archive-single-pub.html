@@ -16,13 +16,12 @@
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if teaser %}
     <div class="photo">
-        <img src=
+        <img class="img-thumbnail" width="100%" src=
         {% if teaser contains "://" %}
           "{{ teaser }}"
         {% else %}
           "{{ teaser | prepend: "/images/" | prepend: base_path }}"
-        {% endif %}
-         class="img-thumbnail" width="100%">
+        {% endif %}>
     </div>
     {% endif %}
 
