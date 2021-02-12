@@ -15,7 +15,7 @@
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if teaser %}
-    <div id="left" class="photo">
+    <div id="left" class="photo-{{ title }}">
         <img class="img-thumbnail" width="100%" src=
         {% if teaser contains "://" %}
           "{{ teaser }}"
@@ -25,7 +25,7 @@
     </div>
     {% endif %}
 
-    <div id="right" class="intro">
+    <div id="right" class="{{ title }}">
       <p>
         {% if post.link %}
           <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
@@ -61,7 +61,7 @@
       {% endif %}
     </div>
     <script type="text/javascript">
-      document.getElementById("left").style.height = document.getElementById("right").offsetHeight + "px";
-      </script>
+      document.getElementById("photo-{{ title }}").style.height = document.getElementById("{{ title }}").offsetHeight + "px";
+    </script>
   </article>
 </div>
