@@ -3,11 +3,11 @@
    ========================================================================== */
 
 .chunk{
-  height: 0.25rem;
-  width: 100%;
+  margin-bottom: 0.25rem;
 }
 
 .photo{
+  margin-bottom: 0.25rem;
   float:left;
   height: auto;
   width:20%;
@@ -23,6 +23,7 @@
 }
  
 .intro{
+  margin-bottom: 0.25rem;
   float:right;
   width:80%;
   height: auto;
