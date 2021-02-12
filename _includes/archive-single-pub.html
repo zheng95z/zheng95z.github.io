@@ -26,17 +26,15 @@
     {% endif %}
 
     <div id="{{ title }}" class="intro">
-      <section class="page__content" itemprop="text">
-        <p class="pub-p-title">
-          <b>{{ title }}</b>
-        </p>
-        <p class="pub-p">
-          {{ post.arthors | markdownify }} 
-        </p>
-        <p class="pub-p">
-          <i>{{post.venue}}</i>
-        </p>
-      </section>
+      <p class="pub-p-title">
+        <b>{{ title }}</b>
+      </p>
+      <p class="pub-p">
+        {{ post.arthors | markdownify }} 
+      </p>
+      <p class="pub-p">
+        <i>{{post.venue}}</i>
+      </p>
     </div>
     <script type="text/javascript">
       document.getElementById("photo-{{ title }}").style.height = document.getElementById("{{ title }}").offsetHeight + "px";
