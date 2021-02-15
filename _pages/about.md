@@ -8,12 +8,13 @@ redirect_from:
   - /about.html
 ---
 
+**NEWS!** I am proud to join Prof. Lingqi Yan's group at UC Santa Barbara in fall 2021 as a Ph.D. student. {: .notice}
 
-Hi! I'm Zheng, a Master's student at Shandong University, supervised by Prof. [Lu Wang](http://vr.sdu.edu.cn/info/1010/1060.htm){:target="_blank"} and Prof. [Yanning Xu](http://vr.sdu.edu.cn/info/1010/1062.htm). I'm also very proud of being advised by Prof. [Lingqi Yan](https://sites.cs.ucsb.edu/~lingqi/) and Prof. [Beibei Wang](https://wangningbei.github.io/).
+Hi! I'm Zheng, a Master's student at Shandong University, supervised by Prof. [Lu Wang](http://vr.sdu.edu.cn/info/1010/1060.htm){:target="_blank"} and Prof. [Yanning Xu](http://vr.sdu.edu.cn/info/1010/1062.htm){:target="_blank"}. I'm also very proud of being advised by Prof. [Lingqi Yan](https://sites.cs.ucsb.edu/~lingqi/){:target="_blank"} and Prof. [Beibei Wang](https://wangningbei.github.io/){:target="_blank"}. 
+ 
+My research mainly focuses on rendering and material appearance. I believe that rendering is **not** solved (mainly because of having learned [this](https://www.bilibili.com/video/BV1my4y1z76s?p=3&t=8m30s){:target="_blank"}), and there is still something interesting and challenging we can do.
 
-My research mainly focuses on rendering and material appearance. I believe that rendering is **not** solved (mainly because of having learned [this](https://www.bilibili.com/video/BV1my4y1z76s?p=3&t=8m30s)), and there is still something interesting and challenging we can do.
-
-As my favorite quote from [Morgan McGuire](https://casual-effects.com/morgan/index.html) goes, *good scientists do not just have good ideas, they also iterate through the mediocre ones very quickly to get them out of the way*. 
+As my favorite quote from [Morgan McGuire](https://casual-effects.com/morgan/index.html){:target="_blank"} goes, *good scientists do not just have good ideas, they also iterate through the mediocre ones very quickly to get them out of the way*. 
 In the process of time, I can gradually infer the important character traits in research from this quote, including **passion**, **curiosity**, **quick-learning**, **tenacity**, and **perseverance**.
 In practice, I constantly examine whether I have had these qualities and discipline myself to develop them.
 
