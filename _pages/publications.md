@@ -29,7 +29,7 @@ Real-time ray tracing (RTRT) is being pervasively applied. The key to RTRT is a 
 
 We introduce temporally reliable motion vectors that aim at deeper exploration of temporal coherence, especially for the generally-believed difficult applications on shadows, glossy reflections and occlusions, with the key idea to detect and track the cause of each effect. We show that our temporally reliable motion vectors produce significantly better temporal results on a variety of dynamic scenes when compared to the state of the art methods, but with negligible performance overhead.
 
-[Paper](https://sites.cs.ucsb.edu/~lingqi/publications/paper_trmv.pdf){:target="_blank"}, [Video (628M)](https://sites.cs.ucsb.edu/~lingqi/publications/video_trmv.pdf){:target="_blank"}
+[Paper](https://sites.cs.ucsb.edu/~lingqi/publications/paper_trmv.pdf){:target="_blank"}, [Video (628M)](https://sites.cs.ucsb.edu/~lingqi/publications/video_trmv.mp4){:target="_blank"}
 
 ---
 
