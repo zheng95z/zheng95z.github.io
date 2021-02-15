@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-Hi! I'm Zheng, a Master's student at Shandong University, supervised by Prof. [Lu Wang](http://vr.sdu.edu.cn/info/1010/1060.htm) and Prof. [Yanning Xu](http://vr.sdu.edu.cn/info/1010/1062.htm). I'm also very proud of being advised by Prof. [Lingqi Yan](https://sites.cs.ucsb.edu/~lingqi/) and Prof. [Beibei Wang](https://wangningbei.github.io/).
+Hi! I'm Zheng, a Master's student at Shandong University, supervised by Prof. [Lu Wang](http://vr.sdu.edu.cn/info/1010/1060.htm){:target="_blank"} and Prof. [Yanning Xu](http://vr.sdu.edu.cn/info/1010/1062.htm). I'm also very proud of being advised by Prof. [Lingqi Yan](https://sites.cs.ucsb.edu/~lingqi/) and Prof. [Beibei Wang](https://wangningbei.github.io/).
 
 My research mainly focuses on rendering and material appearance. I believe that rendering is **not** solved (mainly because of having learned [this](https://www.bilibili.com/video/BV1my4y1z76s?p=3&t=8m30s)), and there is still something interesting and challenging we can do.
 
