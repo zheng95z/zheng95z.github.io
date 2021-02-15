@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 **NEWS!** I am proud to join Prof. Lingqi Yan's group at UC Santa Barbara in fall 2021 as a Ph.D. student.
-{: .notice}
+{: .notice--info}
 
 Hi! I'm Zheng, a Master's student at Shandong University, supervised by Prof. [Lu Wang](http://vr.sdu.edu.cn/info/1010/1060.htm){:target="_blank"} and Prof. [Yanning Xu](http://vr.sdu.edu.cn/info/1010/1062.htm){:target="_blank"}. I'm also very proud of being advised by Prof. [Lingqi Yan](https://sites.cs.ucsb.edu/~lingqi/){:target="_blank"} and Prof. [Beibei Wang](https://wangningbei.github.io/){:target="_blank"}. 
  
