@@ -2,7 +2,7 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: about
+  - title: about-me
     entries:
       - title: a final-year Ph.D. candidate at UC Santa Barbara, working with Prof. <a href="https://sites.cs.ucsb.edu/~lingqi/" target="_blank">Lingqi Yan</a>
       - title: previously worked with
@@ -13,7 +13,7 @@ entries:
           - title: Professors <a href="http://vr.sdu.edu.cn/info/1010/1060.htm" target="_blank">Lu Wang</a>, <a href="http://vr.sdu.edu.cn/info/1010/1062.htm" target="_blank">Yanning Xu</a>, and <a href="https://wangningbei.github.io/" target="_blank">Beibei Wang</a> at SDU
       - title: "research goal: ultimate photorealism at minimal cost"
 
-  - title: regular reads
+  - title: regular-reading
     entries:
       - title: Principles of Effective Research - Michael A. Nielsen
         url: https://michaelnielsen.org/blog/principles-of-effective-research/
