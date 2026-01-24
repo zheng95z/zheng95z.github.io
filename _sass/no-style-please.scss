@@ -10,7 +10,9 @@
   iframe {
     filter: invert(1);
   }
-  // 确保 publication 图片也被保护
+  video {
+    filter: invert(1);
+  }
   ul li img {
     filter: invert(1);
   }
