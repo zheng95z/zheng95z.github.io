@@ -56,6 +56,14 @@ p { margin: 1rem 0; }
 
 li { margin: 0.4rem 0; }
 
+header + ul > li {
+  margin-top: 1.5rem;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
 *:target { background: yellow; }
 
 .w {
