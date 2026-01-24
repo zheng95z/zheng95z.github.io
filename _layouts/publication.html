@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+{%-include back_link.html-%}
+
+<h1>{{ page.title }}</h1>
+
+{%- if page.authors -%}
+<p>{{ page.authors }}</p>
+{%- endif -%}
+
+{%- if page.publication -%}
+<p>{{ page.publication }}</p>
+{%- endif -%}
+
+{%- assign links = "" -%}
+{%- if page.paper -%}
+  {%- assign links = links | append: '<a href="' | append: page.paper | append: '" target="_blank">paper</a>' -%}
+{%- endif -%}
+{%- if page.code -%}
+  {%- if links != "" -%}{%- assign links = links | append: ", " -%}{%- endif -%}
+  {%- assign links = links | append: '<a href="' | append: page.code | append: '" target="_blank">code</a>' -%}
+{%- endif -%}
+{%- if page.slides -%}
+  {%- if links != "" -%}{%- assign links = links | append: ", " -%}{%- endif -%}
+  {%- assign links = links | append: '<a href="' | append: page.slides | append: '" target="_blank">slides</a>' -%}
+{%- endif -%}
+{%- if page.supplementary -%}
+  {%- if links != "" -%}{%- assign links = links | append: ", " -%}{%- endif -%}
+  {%- assign links = links | append: '<a href="' | append: page.supplementary | append: '" target="_blank">supplementary</a>' -%}
+{%- endif -%}
+{%- if page.video -%}
+  {%- if links != "" -%}{%- assign links = links | append: ", " -%}{%- endif -%}
+  {%- assign links = links | append: '<a href="' | append: page.video | append: '" target="_blank">video</a>' -%}
+{%- endif -%}
+{%- if page.doi -%}
+  {%- if links != "" -%}{%- assign links = links | append: ", " -%}{%- endif -%}
+  {%- assign links = links | append: '<a href="' | append: page.doi | append: '" target="_blank">doi</a>' -%}
+{%- endif -%}
+{%- if links != "" -%}
+<p>{{ links }}</p>
+{%- endif -%}
+
+{%- if page.teaser -%}
+<img src="{{ page.teaser | relative_url }}" alt="{{ page.title }}" style="max-width: 100%; height: auto; margin: 1em 0;">
+{%- endif -%}
+
+{{ content }}

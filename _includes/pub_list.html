@@ -1,0 +1,86 @@
+{%-if include.category-%}
+  {%-assign publications = site.publications | where: "category", include.category | sort: "time" | reverse-%}
+{%-else-%}
+  {%-assign publications = site.publications | sort: "time" | reverse-%}
+{%-endif-%}
+
+{%-if include.limit and publications.size > include.limit-%}
+  {%-assign limit_exceeded = true-%}
+{%-else-%}
+  {%-assign limit_exceeded = false-%}
+{%-endif-%}
+
+{%- if publications.size > 0 -%}
+  <ul>
+    {%- for pub in publications limit: include.limit -%}
+        <li>
+          {%- if pub.page -%}
+            {%- assign pub_link = pub.page -%}
+          {%- else -%}
+            {%- assign pub_link = pub.url | relative_url -%}
+          {%- endif -%}
+          {% if site.theme_config.lowercase_titles == true %}
+          <a href="{{ pub_link }}">{{ pub.title | downcase }}</a>
+          {% else %}
+          <a href="{{ pub_link }}">{{ pub.title }}</a>
+          {% endif %}
+          <br>
+          <div style="display: flex; margin-top: 0.5em; gap: 1em; align-items: flex-start;">
+            {%- if pub.image -%}
+            <a href="{{ pub_link }}">
+              <img src="{{ pub.image | relative_url }}" alt="{{ pub.title }}" style="height: 130px; width: auto; border: 2px solid black; border-radius: 4px; flex-shrink: 0;">
+            </a>
+            {%- endif -%}
+            <div style="flex: 1; font-size: 14px;">
+              {%- if pub.aka -%}
+              <div style="font-style: italic;">"{{ pub.aka }}"</div>
+              {%- endif -%}
+              {%- if pub.authors -%}
+              <div style="margin-top: 0.3em;">{{ pub.authors }}</div>
+              {%- endif -%}
+              {%- if pub.honor -%}
+              <div style="color: #ff3333; margin-top: 0.3em;">{{ pub.honor }}</div>
+              {%- endif -%}
+              {%- if pub.publication -%}
+              <div style="margin-top: 0.3em;">{{ pub.publication }}</div>
+              {%- endif -%}
+              {%- assign links = "" -%}
+              {%- if pub.paper -%}
+                {%- assign links = links | append: '<a href="' | append: pub.paper | append: '" target="_blank">paper</a>' -%}
+              {%- endif -%}
+              {%- if pub.code -%}
+                {%- if links != "" -%}{%- assign links = links | append: ", " -%}{%- endif -%}
+                {%- assign links = links | append: '<a href="' | append: pub.code | append: '" target="_blank">code</a>' -%}
+              {%- endif -%}
+              {%- if pub.slides -%}
+                {%- if links != "" -%}{%- assign links = links | append: ", " -%}{%- endif -%}
+                {%- assign links = links | append: '<a href="' | append: pub.slides | append: '" target="_blank">slides</a>' -%}
+              {%- endif -%}
+              {%- if pub.supplementary -%}
+                {%- if links != "" -%}{%- assign links = links | append: ", " -%}{%- endif -%}
+                {%- assign links = links | append: '<a href="' | append: pub.supplementary | append: '" target="_blank">supplementary</a>' -%}
+              {%- endif -%}
+              {%- if pub.video -%}
+                {%- if links != "" -%}{%- assign links = links | append: ", " -%}{%- endif -%}
+                {%- assign links = links | append: '<a href="' | append: pub.video | append: '" target="_blank">video</a>' -%}
+              {%- endif -%}
+              {%- if pub.doi -%}
+                {%- if links != "" -%}{%- assign links = links | append: ", " -%}{%- endif -%}
+                {%- assign links = links | append: '<a href="' | append: pub.doi | append: '" target="_blank">doi</a>' -%}
+              {%- endif -%}
+              {%- if pub.arxiv -%}
+                {%- if links != "" -%}{%- assign links = links | append: ", " -%}{%- endif -%}
+                {%- assign links = links | append: '<a href="' | append: pub.arxiv | append: '" target="_blank">arxiv</a>' -%}
+              {%- endif -%}
+              {%- if links != "" -%}
+              <div style="margin-top: 0.3em;">{{ links }}</div>
+              {%- endif -%}
+            </div>
+          </div>
+        </li>
+    {%- endfor -%}
+    {%- if include.show_more and limit_exceeded -%}
+      <li><a href="{{ include.show_more_url }}">{{ include.show_more_text | default: "Show more..." }}</a></li>
+    {%- endif -%}
+  </ul>
+{%- endif -%}
