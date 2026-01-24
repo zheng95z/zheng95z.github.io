@@ -5,7 +5,7 @@ title: "RGB↔X: Image Decomposition and Synthesis Using Material- and Lighting-
 image: /assets/pub/rgbx24_small.png
 publication: ACM SIGGRAPH Asia 2025 (Conference Track)
 authors: <b>Zheng Zeng</b>, <a href="https://valentin.deschaintre.fr/" target="_blank">Valentin Deschaintre</a>, <a href="https://www.iliyan.com/" target="_blank">Iliyan Georgiev</a>, <a href="https://yannickhold.com/" target="_blank">Yannick Hold-Geoffroy</a>, <a href="https://yiweihu.netlify.app/" target="_blank">Yiwei Hu</a>, <a href="https://luanfujun.com/" target="_blank">Fujun Luan</a>, <a href="https://sites.cs.ucsb.edu/~lingqi/" target="_blank">Ling-Qi Yan</a>, <a href="http://www.miloshasan.net/" target="_blank">Miloš Hašan</a>
-aka: "GenAI models can eliminate/simulate GI"
+aka: "diffusion models can eliminate/simulate gi"
 honor:
 paper: /assets/files/sig24-rgbx.pdf
 code: https://github.com/zheng95z/rgbx

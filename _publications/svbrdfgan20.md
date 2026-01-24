@@ -5,7 +5,7 @@ title: "Joint SVBRDF Recovery and Synthesis From a Single Image using an Unsuper
 image: /assets/pub/svbrdfgan20_small.png
 publication: Eurographics Symposium on Rendering 2020 (DL-only Track)
 authors: Yezi Zhao, <a href="https://wangningbei.github.io/" target="_blank">Beibei Wang</a>, <a href="hhttp://vr.sdu.edu.cn/info/1010/1062.htm" target="_blank"> Yanning Xu</a>, <b>Zheng Zeng</b>, <a href="http://vr.sdu.edu.cn/info/1010/1062.htm" target="_blank"> Lu Wang</a>, <a href="http://maverick.inria.fr/Membres/Nicolas.Holzschuch/" target="_blank"> Nicolas Holzschuch</a>
-aka: no corresponding SVBRDFs? still can train a GAN!
+aka: no corresponding svbrdfs? still can train a gan!
 honor:
 paper: /assets/files/egsr2020-svbrdf-gan.pdf
 code: https://github.com/mengshu1996/SVBRDF-GAN
