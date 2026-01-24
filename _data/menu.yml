@@ -15,11 +15,11 @@ entries:
 
   - title: regular-reading
     entries:
-      - title: Principles of Effective Research - Michael A. Nielsen
+      - title: principles of effective research - Michael A. Nielsen
         url: https://michaelnielsen.org/blog/principles-of-effective-research/
-      - title: The Craft of Writing Effectively - Larry McEnerney
+      - title: the craft of writing effectively - Larry McEnerney
         url: https://www.youtube.com/watch?v=vtIzMaLkCaM
-      - title: The Importance of Deconstruction - Kilian Q. Weinberger
+      - title: The importance of deconstruction - Kilian Q. Weinberger
         url: https://slideslive.com/38938218/the-importance-of-deconstruction
   # - title: rss
   #   url: feed.xml
