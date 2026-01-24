@@ -3,8 +3,8 @@ layout: publication
 time: 2020-09-13
 title: "Denoising Stochastic Progressive Photon Mapping Renderings Using a Multi-Residual Network"
 image: /assets/pub/sppmdenoiser20_small.png
-publication: Eurographics 2021 (CGF track)
-authors: <b>Zheng Zeng</b>, <a href="http://behindthepixels.io/" target="_blank">Shiqiu (Edward) Liu</a>, Jinglei Yang, <a href="http://vr.sdu.edu.cn/info/1010/1060.htm" target="_blank">Lu Wang</a>, <a href="https://sites.cs.ucsb.edu/~lingqi/" target="_blank">Ling-Qi Yan</a>
+publication: Journal of Computer Science and Technology (CVM2020)
+authors: <b>Zheng Zeng</b>, <a href="http://vr.sdu.edu.cn/info/1010/1060.htm" target="_blank">Lu Wang</a>, <a href="https://wangningbei.github.io/" target="_blank">Beibei Wang</a>, Chun-Meng Kang, <a href="http://vr.sdu.edu.cn/info/1010/1062.htm" target="_blank"> Yanning Xu</a>
 aka: different receptive fields for different scales of noise
 honor:
 paper: /assets/files/jcst2020-sppm-denoiser.pdf
