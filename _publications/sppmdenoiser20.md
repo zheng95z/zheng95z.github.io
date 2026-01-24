@@ -5,7 +5,7 @@ title: "Denoising Stochastic Progressive Photon Mapping Renderings Using a Multi
 image: /assets/pub/sppmdenoiser20_small.png
 publication: Eurographics 2021 (CGF track)
 authors: <b>Zheng Zeng</b>, <a href="http://behindthepixels.io/" target="_blank">Shiqiu (Edward) Liu</a>, Jinglei Yang, <a href="http://vr.sdu.edu.cn/info/1010/1060.htm" target="_blank">Lu Wang</a>, <a href="https://sites.cs.ucsb.edu/~lingqi/" target="_blank">Ling-Qi Yan</a>
-aka: Different Motion Vectors for Different Effects to Better Utilize Temporal Information
+aka: different receptive fields for different scales of noise
 honor:
 paper: /assets/files/jcst2020-sppm-denoiser.pdf
 code:
