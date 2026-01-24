@@ -10,6 +10,13 @@
   iframe {
     filter: invert(1);
   }
+  // 确保 publication 图片也被保护
+  ul li img {
+    filter: invert(1);
+  }
+  a img {
+    filter: invert(1);
+  }
 }
 
 body[a="dark"] { @include dark-appearance; }
