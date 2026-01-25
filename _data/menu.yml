@@ -15,12 +15,11 @@ entries:
 
   - title: regular-reading
     entries:
-      - title: principles of effective research - Michael A. Nielsen
-        url: https://michaelnielsen.org/blog/principles-of-effective-research/
-      - title: the craft of writing effectively - Larry McEnerney
-        url: https://www.youtube.com/watch?v=vtIzMaLkCaM
-      - title: The importance of deconstruction - Kilian Q. Weinberger
-        url: https://slideslive.com/38938218/the-importance-of-deconstruction
+      - title: <a href="https://michaelnielsen.org/blog/principles-of-effective-research/" target="_blank">principles of effective research</a> - Michael A. Nielsen
+      - title: <a href="https://www.youtube.com/watch?v=vtIzMaLkCaM" target="_blank">the craft of writing effectively</a> - Larry McEnerney
+      - title: <a href="https://slideslive.com/38938218/the-importance-of-deconstruction" target="_blank">the importance of deconstruction</a> - Kilian Q. Weinberger
+      - title: See more ...
+        url: resources.html
   # - title: rss
   #   url: feed.xml
 
@@ -45,3 +44,4 @@ entries:
     entries:
       - title: "\"Strive for a state where others see it as hard work, but you don't — it is just normal to you.\" — Ichiro Suzuki"
       - title: '"Pressure is a privilege — it only comes to those who earn it." — Billie Jean King'
+      - title: "\"It is only by going through a volume of work that you will close that gap, and your work will be as good as your ambitions.\" — Ira Glass"
