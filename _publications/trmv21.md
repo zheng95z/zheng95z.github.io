@@ -4,7 +4,7 @@ time: 2022-09-13
 title: "Temporally Reliable Motion Vectors for Real-time Ray Tracing"
 image: /assets/pub/trmv21_small.png
 publication: Eurographics 2021 (CGF track)
-authors: <b>Zheng Zeng</b>, <a href="http://behindthepixels.io/" target="_blank">Shiqiu (Edward) Liu</a>, Jinglei Yang, <a href="http://vr.sdu.edu.cn/info/1010/1060.htm" target="_blank">Lu Wang</a>, <a href="https://sites.cs.ucsb.edu/~lingqi/" target="_blank">Ling-Qi Yan</a>
+authors: <b>Zheng Zeng</b>, <a href="http://behindthepixels.io/" target="_blank">Shiqiu (Edward) Liu</a>, Jinglei Yang, <a href="http://vr.sdu.edu.cn/info/1010/1060.htm" target="_blank">Lu Wang</a>, <a href="https://lingqiyan.github.io/" target="_blank">Lingqi Yan</a>
 aka: different motion vectors for different effects
 honor:
 paper: https://sites.cs.ucsb.edu/~lingqi/publications/paper_trmv.pdf
@@ -25,7 +25,7 @@ We introduce temporally reliable motion vectors that aim at deeper exploration o
 ```
 @inproceedings{zeng2021temporally,
   title={Temporally Reliable Motion Vectors for Real-time Ray Tracing},
-  author={Zeng, Zheng and Liu, Shiqiu and Yang, Jinglei and Wang, Lu and Yan, Ling-Qi},
+  author={Zeng, Zheng and Liu, Shiqiu and Yang, Jinglei and Wang, Lu and Yan, Lingqi},
   booktitle={Computer Graphics Forum},
   volume={40},
   number={2},

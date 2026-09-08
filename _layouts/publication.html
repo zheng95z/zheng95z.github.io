@@ -38,6 +38,10 @@ layout: default
   {%- if links != "" -%}{%- assign links = links | append: ", " -%}{%- endif -%}
   {%- assign links = links | append: '<a href="' | append: page.doi | append: '" target="_blank">doi</a>' -%}
 {%- endif -%}
+{%- if page.arxiv -%}
+  {%- if links != "" -%}{%- assign links = links | append: ", " -%}{%- endif -%}
+  {%- assign links = links | append: '<a href="' | append: page.arxiv | append: '" target="_blank">arxiv</a>' -%}
+{%- endif -%}
 {%- if links != "" -%}
 <p>{{ links }}</p>
 {%- endif -%}

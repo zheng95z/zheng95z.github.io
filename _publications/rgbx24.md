@@ -4,7 +4,7 @@ time: 2024-07-15
 title: "RGB↔X: Image Decomposition and Synthesis Using Material- and Lighting-aware Diffusion Models"
 image: /assets/pub/rgbx24_small.png
 publication: ACM SIGGRAPH 2024 (Conference Track)
-authors: <b>Zheng Zeng</b>, <a href="https://valentin.deschaintre.fr/" target="_blank">Valentin Deschaintre</a>, <a href="https://www.iliyan.com/" target="_blank">Iliyan Georgiev</a>, <a href="https://yannickhold.com/" target="_blank">Yannick Hold-Geoffroy</a>, <a href="https://yiweihu.netlify.app/" target="_blank">Yiwei Hu</a>, <a href="https://luanfujun.com/" target="_blank">Fujun Luan</a>, <a href="https://sites.cs.ucsb.edu/~lingqi/" target="_blank">Ling-Qi Yan</a>, <a href="http://www.miloshasan.net/" target="_blank">Miloš Hašan</a>
+authors: <b>Zheng Zeng</b>, <a href="https://valentin.deschaintre.fr/" target="_blank">Valentin Deschaintre</a>, <a href="https://www.iliyan.com/" target="_blank">Iliyan Georgiev</a>, <a href="https://yannickhold.com/" target="_blank">Yannick Hold-Geoffroy</a>, <a href="https://yiweihu.netlify.app/" target="_blank">Yiwei Hu</a>, <a href="https://luanfujun.com/" target="_blank">Fujun Luan</a>, <a href="https://lingqiyan.github.io/" target="_blank">Lingqi Yan</a>, <a href="http://www.miloshasan.net/" target="_blank">Miloš Hašan</a>
 aka: "diffusion models can eliminate/simulate gi"
 honor:
 paper: /assets/files/sig24-rgbx.pdf
@@ -122,7 +122,7 @@ We thank the anonymous reviewers for their constructive suggestions. We also tha
 ## Cite
 ```bib
 @inproceedings{zeng2024rgb,
-author = {Zeng, Zheng and Deschaintre, Valentin and Georgiev, Iliyan and Hold-Geoffroy, Yannick and Hu, Yiwei and Luan, Fujun and Yan, Ling-Qi and Ha\v{s}an, Milo\v{s}},
+author = {Zeng, Zheng and Deschaintre, Valentin and Georgiev, Iliyan and Hold-Geoffroy, Yannick and Hu, Yiwei and Luan, Fujun and Yan, Lingqi and Ha\v{s}an, Milo\v{s}},
 title = {RGB↔X: Image decomposition and synthesis using material- and lighting-aware diffusion models},
 year = {2024},
 isbn = {9798400705250},

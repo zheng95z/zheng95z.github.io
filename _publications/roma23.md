@@ -4,7 +4,7 @@ time: 2023-11-15
 title: Ray-aligned Occupancy Map Array for Fast Approximate Ray Tracing
 image: /assets/pub/roma23_small.png
 publication: Eurographics Symposium on Rendering 2023 (CGF track)
-authors: <b>Zheng Zeng</b>, <a href="https://starry316.github.io/" target="_blank">Zilin Xu</a>, <a href="http://vr.sdu.edu.cn/info/1010/1060.htm" target="_blank">Lu Wang</a>, <a href="https://winmad.github.io/" target="_blank">Lifan Wu</a>, <a href="https://sites.cs.ucsb.edu/~lingqi/" target="_blank">Ling-Qi Yan</a>
+authors: <b>Zheng Zeng</b>, <a href="https://starry316.github.io/" target="_blank">Zilin Xu</a>, <a href="http://vr.sdu.edu.cn/info/1010/1060.htm" target="_blank">Lu Wang</a>, <a href="https://winmad.github.io/" target="_blank">Lifan Wu</a>, <a href="https://lingqiyan.github.io/" target="_blank">Lingqi Yan</a>
 aka: voxelize multiple copies to minimize divergence
 honor: Computer Graphics Forum 2023 Top Viewed Article
 paper: /assets/files/egsr2023-roma.pdf

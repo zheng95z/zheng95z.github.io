@@ -4,7 +4,7 @@ time: 2023-12-14
 title: "ExtraSS: A Framework for Joint Spatial Super Sampling and Frame Extrapolation"
 image: /assets/pub/extrass23_small.png
 publication: ACM SIGGRAPH Asia 2023 (Conference Track)
-authors: <a href="https://poiw.github.io/" target="_blank">Songyin Wu</a>, Sungye Kim, <b>Zheng Zeng</b>, Deepak Vembar, Sangeeta Jha, Anton Kaplanyan, <a href="https://sites.cs.ucsb.edu/~lingqi/" target="_blank">Ling-Qi Yan</a>
+authors: <a href="https://poiw.github.io/" target="_blank">Songyin Wu</a>, Sungye Kim, <b>Zheng Zeng</b>, Deepak Vembar, Sangeeta Jha, Anton Kaplanyan, <a href="https://lingqiyan.github.io/" target="_blank">Lingqi Yan</a>
 aka: you can jointly upsample & extrapolate frames
 honor:
 paper: https://sites.cs.ucsb.edu/~lingqi/publications/paper_siga23extrass.pdf

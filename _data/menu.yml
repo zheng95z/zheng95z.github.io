@@ -4,9 +4,11 @@
 entries:
   - title: about-me
     entries:
-      - title: a final-year Ph.D. candidate at UC Santa Barbara, working with Prof. <a href="https://sites.cs.ucsb.edu/~lingqi/" target="_blank">Lingqi Yan</a>
+      - title: a researcher working at <a href="https://research.nvidia.com/labs/adlr/" target="_blank">NVIDIA Applied Deep Learning Research</a>
       - title: previously worked with
         entries:
+          - title: Prof. <a href="https://lingqiyan.github.io/" target="_blank">Lingqi Yan</a> at UCSB
+          - title: Marco Salvi, <a href="https://winmad.github.io/" target="_blank">Lifan Wu</a>, Jan Novák, <a href="https://dqlin.xyz/" target="_blank">Daqi Lin</a>, Prof. <a href="https://cseweb.ucsd.edu/~ravir/" target="_blank">Ravi Ramamoorthi</a>, and <a href="http://www.miloshasan.net/" target="_blank">Miloš Hašan</a> at NVIDIA Real-time Graphics Research
           - title: <a href="https://dqlin.xyz/" target="_blank">Daqi Lin</a>, <a href="https://mkettunen.com/" target="_blank">Markus Kettunen</a>, <a href="https://cwyman.org/index.html" target="_blank">Chris Wyman</a>, <a href="https://winmad.github.io/" target="_blank">Lifan Wu</a>, and Prof. <a href="https://cseweb.ucsd.edu/~ravir/" target="_blank">Ravi Ramamoorthi</a> at NVIDIA Real-time Graphics Research
           - title: <a href="http://www.miloshasan.net/" target="_blank">Miloš Hašan</a>, <a href="https://valentin.deschaintre.fr/" target="_blank">Valentin Deschaintre</a>, <a href="https://www.iliyan.com/" target="_blank">Iliyan Georgiev</a>, <a href="https://yannickhold.com/" target="_blank">Yannick Hold-Geoffroy</a>, <a href="https://yiweihu.netlify.app/" target="_blank">Yiwei Hu</a>, and <a href="https://luanfujun.com/" target="_blank">Fujun Luan</a> at Adobe Research
           - title: <a href="http://behindthepixels.io/" target="_blank">Edward Liu</a> at NVIDIA Applied Deep Learning Research
@@ -36,12 +38,3 @@ entries:
       show_more: true
       show_more_text: See all publications...
       show_more_url: publications.html
-
-  # - title: PRO TIP
-  #   entries:
-  #     - title: to edit this menu, edit _data/menu.yml file 
-  - title: quotes
-    entries:
-      - title: "\"Strive for a state where others see it as hard work, but you don't — it is just normal to you.\" — Ichiro Suzuki"
-      - title: '"Pressure is a privilege — it only comes to those who earn it." — Billie Jean King'
-      - title: "\"It is only by going through a volume of work that you will close that gap, and your work will be as good as your ambitions.\" — Ira Glass"
